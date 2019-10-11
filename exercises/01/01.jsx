@@ -31,7 +31,13 @@ import React from 'react';
 function StatusBlock(props) {
   return (
     <div>
-      Start HERE!
+      <div>
+        Status: {props.status}
+      </div>
+      <div>
+        Stat: {props.stat}
+      </div>
+      <i className='fas fa-user-slash'></i>
     </div>
   );
 }
